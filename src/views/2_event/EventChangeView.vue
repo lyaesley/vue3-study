@@ -6,6 +6,7 @@
       <option :value="city.cityCode" :key="city.cityCode" v-for="city in cityList">{{city.title}}</option>
     </select>
 
+    <!--2가지 방식 가능-->
     <select name="" id="">
       <option :key="dong.dongCode" :value="dong.dongCode" v-for="dong in selectedDongList">{{dong.dongTitle}}</option>
     </select>
