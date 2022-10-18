@@ -11,7 +11,7 @@
     </select>
 
     <select name="" id="">
-      <option :key="dong.dongCode" :value="dong.dongCode" v-for="dong in dongList.filter(() => dong.cityCode === selectedCity)">{{dong.dongTitle}}</option>
+      <option :key="dong.dongCode" :value="dong.dongCode" v-for="dong in dongList.filter((dong) => dong.cityCode === selectedCity)">{{dong.dongTitle}}</option>
     </select>
   </div>
 </template>
